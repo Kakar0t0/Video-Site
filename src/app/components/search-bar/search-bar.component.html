@@ -1,0 +1,7 @@
+<div class="search-container">
+  <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <span class="logo" routerLink="/">Video</span>
+    <input class="search-input" name="search" ngModel placeholder="Rechercher une vidéo"/>
+    <button class="search-button">Rechercher</button>
+  </form>
+</div>

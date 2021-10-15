@@ -1,0 +1,28 @@
+<div class="filters">
+  <mat-form-field>
+    <mat-label>Trier</mat-label>
+    <mat-select panelClass="sort-select" [(ngModel)]="sort">
+      <mat-option value="name">Nom</mat-option>
+      <mat-option value="-released">Publié</mat-option>
+      <mat-option value="-added">Ajouté</mat-option>
+      <mat-option value="-created">Crée</mat-option>
+      <mat-option value="-rating">Notation</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div class="videos">
+  <div class="video">
+    <div class="video-thumb-container">
+      <img src="https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2021-06/5798959.jpg"
+      alt="thumbnail"
+      class="game-thumbnail">
+    </div>
+    <div class="video-description">
+      <p class="video-name">Nom</p>
+      <div class="video-platforms">
+        <img class="video-platform" src="https://images5.alphacoders.com/927/thumb-1920-927025.png">
+      </div>
+    </div>
+  </div>
+</div>
